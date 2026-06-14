@@ -1,0 +1,5 @@
+curl -X PUT "http://localhost:5000/customer/auth/review/1?review=Excellent%20Book"
+{"message":"Review added/modified successfully"}
+
+curl "http://localhost:5000/isbn/1"
+{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{"thinh":"Excellent Book"}}
